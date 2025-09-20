@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Product Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>E-Commerce Product Showcase</h1>
+
+  <!-- Filter Buttons -->
+  <div class="filters">
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('clothing')">Clothing</button>
+    <button onclick="filterProducts('electronics')">Electronics</button>
+  </div>
+
+  <!-- Product Gallery -->
+  <div class="gallery">
+    <div class="product" data-category="clothing">
+      <img src="https://via.placeholder.com/200x150/87CEEB/000000?text=T-Shirt" alt="T-Shirt">
+      <h3>T-Shirt</h3>
+      <p>Stylish cotton T-shirt</p>
+    </div>
+
+    <div class="product" data-category="electronics">
+      <img src="https://via.placeholder.com/200x150/FFD700/000000?text=Headphones" alt="Headphones">
+      <h3>Headphones</h3>
+      <p>Wireless noise-cancelling</p>
+    </div>
+
+    <div class="product" data-category="clothing">
+      <img src="https://via.placeholder.com/200x150/FF6347/000000?text=Jacket" alt="Jacket">
+      <h3>Jacket</h3>
+      <p>Warm winter jacket</p>
+    </div>
+
+    <div class="product" data-category="electronics">
+      <img src="https://via.placeholder.com/200x150/90EE90/000000?text=Smartphone" alt="Smartphone">
+      <h3>Smartphone</h3>
+      <p>Latest model with great camera</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
